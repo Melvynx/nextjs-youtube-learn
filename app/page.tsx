@@ -29,7 +29,7 @@ export default async function Home() {
             href="/important"
             className={buttonVariants({ variant: "outline" })}
           >
-            Importnat !
+            Important
           </Link>
         </CardContent>
       </Card>
