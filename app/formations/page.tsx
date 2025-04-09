@@ -57,6 +57,7 @@ const initialModules: Module[] = [
       "Exploiter la puissance des server components avec une base de données",
     topics: [
       { title: "Fonctionnement des server components", isCompleted: false },
+      { title: "Fonctionnement des client components", isCompleted: false },
       { title: "Comment les utiliser", isCompleted: false },
       { title: "Installation de Prisma", isCompleted: false },
       { title: "Utilisation du Prisma Studio", isCompleted: false },
@@ -149,7 +150,7 @@ const initialModules: Module[] = [
 
 export default function RoutePage() {
   const [modules, setModules] = useLocalStorage<Module[]>(
-    "modules-2",
+    "modules-4",
     initialModules
   );
 
