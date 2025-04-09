@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Context
+
+Global rules to apply to every request.
+
+## Rules
+
+* Always use `pnpm`
