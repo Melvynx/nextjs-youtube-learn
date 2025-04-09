@@ -25,6 +25,12 @@ export default async function Home() {
           >
             Plan de la vidéo
           </Link>
+          <Link
+            href="/important"
+            className={buttonVariants({ variant: "outline" })}
+          >
+            Importnat !
+          </Link>
         </CardContent>
       </Card>
     </div>
